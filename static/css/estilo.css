@@ -1,0 +1,46 @@
+@charset "UTF_8";
+    
+body {  
+            background-color: WHEAT;
+            color:  BROWN;
+        }
+
+/* formatacao do menu */
+
+nav#menu {
+    display: block;
+}
+
+nav#menu h1{
+    display: none;
+}
+
+nav#menu ul{
+    list-style: none;
+    text-transform: capitalize;
+    position: absolute;
+    top: -20px;
+    left: 200px;
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: WHEAT;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover {
+    background-color: white;
+}
+
+nav#menu a{
+    color: brown;
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color: green;
+    text-decoration: none;
+}
